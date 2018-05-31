@@ -1,0 +1,209 @@
+http://www.cnblogs.com/hykun/p/sublimeText3.html
+插件教程
+
+
+
+emmet
+前端神器。一个可以极大提高web开发者HTML和CSS工作效率的工具箱组件。
+http://jingyan.baidu.com/article/37bce2be75b2a91002f3a2dc.html
+首先要给sublime text2安装一个emmet的插件，安装方法不再赘述。按住Ctrl+N新建一个文件
+在右下角有个plain text的标志，点击，选择文件类型为HTML
+然后Ctrl+S保存文件
+这时候输入"!"（注意一定要选择对输入法）
+然后按"Tab"，神奇的发现HTML的头部就出现了
+
+
+
+
+CSS3：
+CSS3语法高亮、CSS语法提示，美中不足的是缺少游览器私有属性高亮。
+
+CSS Extended Completions：
+关联CSS文件，智能提示css文件中的类名，非常好用。
+
+JavaScript Completions
+支持javascript原生语法提示
+
+jQuery
+为jQuery的大部分方法提供了示例代码段，让jQuery的API更加容易使用。、、、、
+
+ColorHighlighter
+它可以展示你所选择的颜色代码（像“#FFFFFF”, “rgb(255,255,255)”, “white”）的真正颜色。同时它还包含一个颜色选择器让你可以方便地更改颜色。
+
+BracketHighlighter
+括号以及标签层级显示，不用担心选中的代码属于哪个代码块，一目了然。
+
+HTML-CSS-JS Prettify
+THML、CSS、JS代码格式化，压缩过后的代码可以通过该工具复原。
+
+Align?Tab
+使用正则表达式来帮助代码对齐，比如几行代码以=号对齐。、、、、、、、、、、、、、、、、、没下载出来
+
+Colorsublime
+安装完成后，可输入Install Theme，在线更换主题。主题库有上百种，这个很不错。
+
+
+
+JsFormat插件
+这是一款将JS格式化的插件
+同样使用Package Control安装JsFormat插件后
+即可在JS文件中通过鼠标右键->JsFormat或键盘快捷键Ctrl+Alt+F对JS进行格式化
+
+
+TrailingSpaces插件
+有时候，在代码结尾打多了几个空格或Tab
+并没有任何显示效果
+TrailingSpaces这款插件能高亮显示多余的空格和Tab
+
+
+Terminal插件
+在编程过程中，我们经常需要使用到命令行窗口
+Terminal插件可以允许在Sublime Text 3中打开cmd命令窗口
+安装好该插件后
+即可使用快捷键Ctrl+Shift+T呼出命令行窗口
+
+
+
+SublimeCodeIntel插件
+这是一款代码提示插件，支持多种编程语言
+该插件安装时间可能相对较长
+更特别的是，安装该插件后需要根据您使用的编程语言进行配置
+
+
+CssComb插件
+CssComb是为CSS属性进行排序和格式化插件 [官网]
+使用Package Control安装CssComb插件后，你可能发现它并不能运行
+它依赖于Node.js [官网]
+若您的计算机已安装过NodeJS环境，可跳过此步骤
+若您的计算机中尚未安装过Node.js环境
+应该到Node.js官网中 [下载] 并安装相应版本的Node.js
+
+Autoprefixer插件
+这是一款CSS3私有前缀自动补全插件
+该插件使用CanIUse资料库，能精准判断哪些属性需要什么前缀
+与CssComb插件一样，该插件也需要系统已安装Node.js环境
+使用方法：在输入CSS3属性后（冒号前）按Tab键
+
+
+babel
+
+ES6终将是要取代 ES5 的但是在从 ES5 到 ES6 过度的过程中，各个浏览器厂商对 ES6 支持的也不是很好。 
+主要是将ES6的代码编译为ES5。至于为什么要这么做，不是本文的内容，可以自行谷歌了解。
+
+
+
+DocBlockr
+这个插件可以非常智能对js文件添加注释,这个非常的方便。
+
+
+FileDiffs
+文件差异对比插件。
+
+
+jade
+如果平时模板语言使用 jade 的话还是安装一个吧，这个可以让 Sublime 的显示更加的友好。jade相关插件，代码高亮
+
+javascript next - ES6 syntax
+javascript ES6 语法高亮的支持。
+
+
+
+Bracket Highlighter    双括号高亮
+
+设置Bracket Setting - user，通过复制Bracket Setting-default的代码到Bracket Setting - user
+sublime text3设置Bracket Highlighter
+将以下代码替换原来的Bracket_Style中的代码
+    "bracket_styles": {
+        "default": {
+            "icon": "dot",
+            "color": "brackethighlighter.default",
+            "style": "hightlight"
+        },
+        "unmatched": {
+            "icon": "question",
+            "color": "brackethighlighter.unmatched",
+            "style": "hightlight"
+        },
+        "curly": {
+            "icon": "curly_bracket",
+            "color": "brackethighlighter.curly",
+            "style": "hightlight"
+        },
+        "round": {
+            "icon": "round_bracket",
+            "color": "brackethighlighter.round",
+            "style": "hightlight"
+        },
+        "square": {
+            "icon": "square_bracket",
+            "color": "brackethighlighter.square",
+            "style": "hightlight"
+        },
+        "angle": {
+            "icon": "angle_bracket",
+            "color": "brackethighlighter.angle",
+            "style": "hightlight"
+        },
+        "tag": {
+            "icon": "tag",
+            "color": "brackethighlighter.tag",
+            "style": "hightlight"
+        },
+        "c_define": {
+            "icon": "hash",
+            "color": "brackethighlighter.c_define",
+            "style": "hightlight"
+        },
+        "single_quote": {
+            "icon": "single_quote",
+            "color": "brackethighlighter.quote",
+            "style": "hightlight"
+        },
+        "double_quote": {
+            "icon": "double_quote",
+            "color": "brackethighlighter.quote",
+            "style": "hightlight"
+        },
+        "regex": {
+            "icon": "regex",
+            "color": "brackethighlighter.quote",
+            "style": "hightlight"
+        }
+    }
+
+
+
+
+
+
+
+
+语法检查插件列表
+
+1.SublimeLinter
+
+安装完以后需要，另外安装需要检测语言的插件。
+
+2.SublimeLinter-jshint
+
+在安装完SublimeLinter 后安转该插件对 JavaScript 语言进行语法检测。
+
+3.SublimeLinter-csslint
+
+在安装完SublimeLinter 后安转该插件对 css 语言进行语法检测。
+
+
+
+SyncedSidebarBg，自动同步侧边栏底色为编辑窗口底色
+
+
+
+Better Completion
+javascript ,jQuery , Bootstrap 等js库的自动补全。该插件的特点就是可以自定义配置需要自动补全的库。
+安装完以后它的配置文件可以配置自己需要补全的库
+
+
+
+Sublime Text一个小插件——SideBarEnhancements
+http://www.w3cfuns.com/notes/13810/d9b9ed2fb80785dae88a5344ef0f30d4.html
+讲解地址如何配置
